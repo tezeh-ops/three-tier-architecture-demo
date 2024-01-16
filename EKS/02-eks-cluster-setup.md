@@ -5,13 +5,13 @@ Please follow the prerequisites doc before this.
 ## Install using Fargate
 
 ```
-eksctl create cluster --name demo-cluster-three-tier-1 --region us-west-1
+eksctl create cluster --name robot-cluster --region us-west-1
 ```
 
 ## Delete the cluster
 
 ```
-eksctl delete cluster --name demo-cluster-three-tier-1 --region us-west-1
+eksctl delete cluster --name robot-cluster --region us-west-1
 ```
 
 
